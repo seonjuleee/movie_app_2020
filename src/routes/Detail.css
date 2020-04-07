@@ -1,0 +1,39 @@
+.detail {
+    background-color: #f2f2f2;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 25px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.year {
+    margin: 0;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    color: rgb(133, 133, 133);
+    margin: 0;
+}
+
+li {
+    padding-right: 4px;
+}
+
+.summary {
+    margin-top: 20px;
+}

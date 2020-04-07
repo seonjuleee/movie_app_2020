@@ -1,0 +1,50 @@
+.movies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movies_movie {
+    margin: 20px 10px;
+    background-color: #f2f2f2;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.movies_movie img {
+    height: 300px;
+}
+
+.movie_data {
+    margin: 0 15px;
+    height: 100%;
+}
+
+.movie_data ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    color: rgb(133, 133, 133);
+    margin: 0;
+}
+
+.movie_data ul li {
+    margin-right: 4px;
+}
+
+.movie_title, .movie_year {
+    margin: 0;
+}
+
+.movie_year {
+    color: rgb(180, 179, 179);
+}
+
+.movie_summary {
+    margin: 25px 0;
+}
